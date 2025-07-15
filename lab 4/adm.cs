@@ -17,7 +17,7 @@ namespace lab_4
     {
         NpgsqlConnection con = new NpgsqlConnection();
         private DataSet ds = new DataSet();
-        private DataTable dt = new DataTable();
+        private DataTable dt = new DataTable();//
         private Form1 form1;
 
         /* private FormRegistry formRegistry;
